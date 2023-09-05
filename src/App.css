@@ -1,7 +1,52 @@
 .App {
   text-align: center;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
+.container {
+  margin: 20px;
+}
+
+.SEDAN {
+  background-color: hsl(31, 77%, 52%);
+}
+.SUV {
+  background-color: hsl(184, 100%, 22%);
+}
+.LUXURY {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.SUV,
+.SEDAN,
+.LUXURY {
+  text-align: left;
+  color: white;
+  height: 400px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.SEDAN .btnn {
+  color: hsl(31, 77%, 52%);
+}
+.SUV .btnn {
+  color: hsl(184, 100%, 22%);
+}
+.LUXURY .btnn {
+  color: hsl(179, 100%, 13%);
+}
+button {
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 80px;
+  border-style: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +59,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
